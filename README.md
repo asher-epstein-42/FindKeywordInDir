@@ -1,5 +1,5 @@
 # FindKeywordInDir
-![Alt text]((https://raw.github.com/asher-epstein-42/FindKeywordInDir/blob/main/Screenshot.png) "Optional title")
+
 usage: python FindKeywordInDir.py [-h] [-f] keyword dir_path
 
 Search for a keyword in any language recursively in docx and txt files in a directory
