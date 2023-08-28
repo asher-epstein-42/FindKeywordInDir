@@ -1,4 +1,5 @@
 # FindKeywordInDir
+![Screenshot](https://github.com/asher-epstein-42/FindKeywordInDir/assets/110289469/dd7345a1-1ea9-4bc4-a7c6-db5c5e1a4e78)
 
 usage: python FindKeywordInDir.py [-h] [-f] keyword dir_path
 
