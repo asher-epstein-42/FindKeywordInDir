@@ -1,7 +1,7 @@
 # FindKeywordInDir
 usage: python FindKeyWordInDir.py [-h] [-f] keyword dir_path
 
-Search for a keyword in any language recursively in directory
+Search for a keyword in any language recursively in a directory
 
 positional arguments:
   keyword     The keyword to search for
