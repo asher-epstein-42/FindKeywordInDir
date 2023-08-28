@@ -61,7 +61,7 @@ def search_keyword_in_docx(keyword: str, file_path: str):
 def write_lines_to_file(matching_lines: list, keyword: str):
     if matching_lines:
         with open(f'Lines_with_{keyword}.txt', "w",
-                  encoding='utf-8') as f:  # The utf-8 encoding is for reading non-ASCII characters
+                  encoding='utf-8') as f:  #  The utf-8 encoding is for writing non-ASCII characters
             f.write(f"Lines containing the keyword '{keyword}':\n")
             for line in matching_lines:
                 f.write(f'{line}\n')
