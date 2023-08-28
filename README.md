@@ -4,8 +4,8 @@ usage: FindKeywordInDir.py [-h] [-f] keyword dir_path
 Search for a keyword in any language recursively in docx and txt files in a directory
 
 positional arguments:
-  keyword     The keyword to search for
-  dir_path    The directory path to search in
+  keyword:     The keyword to search for
+  dir_path:    The directory path to search in
 
 options:
   -h, --help  show this help message and exit
