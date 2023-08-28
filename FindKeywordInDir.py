@@ -80,7 +80,8 @@ def print_lines_to_console(matching_lines: list, keyword: str):
 
 
 def menu():
-    parser = argparse.ArgumentParser(description="Search for a keyword in any language recursively in directory")
+    parser = argparse.ArgumentParser(
+        description="Search for a keyword in any language recursively in docx and txt files in a directory")
     parser.add_argument("keyword", help="The keyword to search for")
     parser.add_argument("dir_path", help="The directory path to search in")
     parser.add_argument("-f", "--file", action="store_true",
