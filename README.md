@@ -1,7 +1,7 @@
 # FindKeywordInDir
-usage: python FindKeyWordInDir.py [-h] [-f] keyword dir_path
+usage: FindKeywordInDir.py [-h] [-f] keyword dir_path
 
-Search for a keyword in any language recursively in a directory
+Search for a keyword in any language recursively in docx and txt files in a directory
 
 positional arguments:
   keyword     The keyword to search for
@@ -10,6 +10,7 @@ positional arguments:
 options:
   -h, --help  show this help message and exit
   -f, --file  create a text file with all the lines with the keyword
+
 
 To use this script, you'll need to install the `python-docx` library. You can install it using pip:
 pip install python-docx
