@@ -3,7 +3,7 @@ Search for a keyword in any language recursively in directory
 
 usage: SearchByKeyWord.py [-h] [-f] keyword dir_path
 
-Search for a keyword recursively in files
+Search for a keyword in any language recursively in directory
 
   keyword     The keyword to search for
   dir_path    The directory path to search in
